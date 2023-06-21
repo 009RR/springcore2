@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ 
+<!--  this is first bean -->
+ <bean class="com.srpingboot.Student" name="student1" p:studentId="1234" p:studentName="Ram Singh" p:studentAddress="Delhi"/>
+ 
+<!--   this is secod bean -->
+<bean class="com.srpingboot.Student" name="student2" p:studentId="2345" p:studentName="Syam Singh" p:studentAddress="Laknauw"/>
+ </beans>
